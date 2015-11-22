@@ -2,7 +2,6 @@ package edu.iut.app;
 
 public class ApplicationInfoLog extends AbstractApplicationLog {
 
-	/** Ajouter un tableau ou profiter de l'héritage ? */
 	public ApplicationInfoLog() {
 		super();
 	}

@@ -2,7 +2,6 @@ package edu.iut.app;
 
 public class ApplicationErrorLog extends AbstractApplicationLog {
 
-	/** Ajouter un tableau ou profiter de l'héritage ? */
 	public ApplicationErrorLog() {
 		super();
 	}

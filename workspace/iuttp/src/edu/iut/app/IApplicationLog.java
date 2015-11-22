@@ -9,13 +9,13 @@ package edu.iut.app;
  */
 public interface IApplicationLog {
 
-	void setMessage(String message);
+	public void setMessage(String message);
 	
-	String getMessage();
+	public String getMessage();
 	
-	void addListener(IApplicationLogListener listener);
+	public void addListener(IApplicationLogListener listener);
 	
-	IApplicationLogListener[] getApplicationLogListeners();
+	public IApplicationLogListener[] getApplicationLogListeners();
 	
 	
 }
