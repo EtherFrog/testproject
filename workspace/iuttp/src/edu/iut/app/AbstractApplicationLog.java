@@ -18,6 +18,12 @@ public abstract class AbstractApplicationLog implements IApplicationLog {
 		listeners = new ArrayList<IApplicationLogListener>();
 	}
 	
+	public AbstractApplicationLog(String message,IApplicationLogListener listener) {
+		this.message = message;
+		listeners = new ArrayList<IApplicationLogListener>();
+		listeners.add(listener); 
+	}
+	
     /** Fonction de l'interface **/
 	
 	public abstract void setMessage(String message);
@@ -32,9 +38,9 @@ public abstract class AbstractApplicationLog implements IApplicationLog {
 		listeners.add(listener);
 	}
 	
-	public IApplicationLogListener[] getApplicationLogListeners()
+	public ArrayList<IApplicationLogListener> getApplicationLogListeners()
 	{	
-		return (IApplicationLogListener[])listeners.toArray();	
+		return listeners;	
 	}
 
 	
