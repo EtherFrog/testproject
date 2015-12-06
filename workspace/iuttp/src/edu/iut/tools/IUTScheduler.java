@@ -1,5 +1,7 @@
 package edu.iut.tools;
 
+import java.util.Locale;
+
 import javax.swing.JFrame;
 import javax.swing.SwingUtilities;
 
@@ -10,6 +12,9 @@ import edu.iut.app.CommandLineParser;
 public class IUTScheduler {
 	public static void main(String[] args) {
 
+//		Locale.setDefault(Locale.ENGLISH);
+//		Locale.setDefault(Locale.FRANCE);
+		
 		CommandLineParser commandLineParser = new CommandLineParser();
 
 		CommandLineOption<java.io.File> configOption = new CommandLineOption<java.io.File>(CommandLineOption.OptionType.FILE, "config","configuration file",new java.io.File("/tmp"));

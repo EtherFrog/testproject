@@ -18,10 +18,7 @@ public class ApplicationSession {
 	private static ApplicationSession session = null;
 	private ApplicationSession() {
 		
-		setLocale(Locale.getDefault());
-		//setLocale(Locale.FRANCE);
-		//setLocale(Locale.US);
-		
+		setLocale(Locale.getDefault());		
 		sessionGuiLogger = Logger.getLogger("IUTTrain");
 		sessionGuiLogger.setLevel(Level.ALL);
 		sessionExceptionLogger = Logger.getLogger("IUTException");
