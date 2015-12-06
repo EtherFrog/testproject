@@ -1,5 +1,10 @@
 package edu.iut.app;
 
+/**
+ * 
+ * @author Ether
+ *
+ */
 public class ApplicationErrorLog extends AbstractApplicationLog {
 
 	public ApplicationErrorLog() {
@@ -9,6 +14,7 @@ public class ApplicationErrorLog extends AbstractApplicationLog {
 	@Override
 	public void setMessage(String message) {
 		this.message = message;
+		ApplicationSession.instance().getGUILogger().severe(message);
 		super.fireMessage("[ERROR]", this.message);
 	}
 
