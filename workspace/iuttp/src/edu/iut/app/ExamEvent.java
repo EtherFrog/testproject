@@ -3,6 +3,11 @@ package edu.iut.app;
 import java.util.ArrayList;
 import java.util.Date;
 
+/**
+ * 
+ * @author Joe&Jonhatan
+ *
+ */
 public class ExamEvent {
 	public ExamEvent() {		
 	}

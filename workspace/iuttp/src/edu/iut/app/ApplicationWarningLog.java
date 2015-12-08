@@ -1,8 +1,8 @@
 package edu.iut.app;
 
-/**
+/**les logs de warning
  * 
- * @author Ether
+ * @author Joe&Jonhatan
  *
  */
 public class ApplicationWarningLog extends AbstractApplicationLog {

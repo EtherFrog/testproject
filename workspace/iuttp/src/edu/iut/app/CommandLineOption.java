@@ -1,5 +1,11 @@
 package edu.iut.app;
 
+/**
+ * 
+ * @author Joe&Jonhatan
+ *
+ * @param <ValueType>
+ */
 public class CommandLineOption<ValueType> {
 	
 	protected String key;
@@ -21,6 +27,7 @@ public class CommandLineOption<ValueType> {
 			this.optionType = optionType;
 		}
 		
+		@Override
 		public String toString() {
 			return optionType;
 		}		

@@ -4,7 +4,11 @@ import java.util.ResourceBundle;
 import java.util.Locale;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
+/**
+ * 
+ * @author Joe&Jonhatan
+ *
+ */
 public class ApplicationSession {
 	
 	protected ResourceBundle resourceBundle;

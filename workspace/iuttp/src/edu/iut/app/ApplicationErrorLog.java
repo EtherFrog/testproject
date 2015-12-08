@@ -1,8 +1,8 @@
 package edu.iut.app;
 
-/**
+/**les logs d'erreur
  * 
- * @author Ether
+ * @author Joe&Jonhatan
  *
  */
 public class ApplicationErrorLog extends AbstractApplicationLog {

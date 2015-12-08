@@ -14,8 +14,6 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JSplitPane;
 
-import edu.iut.gui.listeners.*;
-
 import edu.iut.gui.widget.agenda.AgendaPanelFactory;
 import edu.iut.gui.widget.agenda.ControlAgendaViewPanel;
 import edu.iut.gui.widget.agenda.AgendaPanelFactory.ActiveView;
@@ -141,6 +139,7 @@ public class SchedulerFrame extends JFrame {
 		super();
 		
 		addWindowListener (new WindowAdapter(){
+			@Override
 			public void windowClosing (WindowEvent e){
 				System.exit(0);
 			}
@@ -158,6 +157,7 @@ public class SchedulerFrame extends JFrame {
 	public SchedulerFrame(String title) {
 		super(title);
 		addWindowListener (new WindowAdapter(){
+			@Override
 			public void windowClosing (WindowEvent e){
 				System.exit(0);
 			}

@@ -2,8 +2,6 @@ package edu.iut.gui.widget.agenda;
 
 import java.awt.GridLayout;
 
-import javax.swing.JPanel;
-
 import edu.iut.app.ApplicationSession;
 import edu.iut.gui.widget.agenda.AgendaPanelFactory.ActiveView;
 
@@ -32,6 +30,7 @@ public class WeekPanel extends EventPanel {
 			return shortName;
 		}
 		
+		@Override
 		public String toString() {
 			return name;
 		}

@@ -4,6 +4,11 @@ import java.util.HashMap;
 import java.util.ArrayList;
 import java.io.File;
 
+/**
+ * 
+ * @author Joe&Jonhatan
+ *
+ */
 public class CommandLineParser {
 
 	protected HashMap<String, CommandLineOption<?> > options;

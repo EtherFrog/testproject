@@ -1,8 +1,8 @@
 package edu.iut.app;
 
-/**
+/**les logs d'info
  * 
- * @author Ether
+ * @author Joe&Jonhatan
  *
  */
 public class ApplicationInfoLog extends AbstractApplicationLog {

@@ -1,5 +1,10 @@
 package edu.iut.app;
 
+/**
+ * 
+ * @author Joe&Jonhatan
+ *
+ */
 public class Classroom {
 	
 	public Classroom() {

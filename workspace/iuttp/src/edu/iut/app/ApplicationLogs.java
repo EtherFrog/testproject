@@ -2,10 +2,10 @@ package edu.iut.app;
 
 import java.util.ArrayList;
 
-/*
+/**
  * 
- * 
- * 
+ * @author Joe&Jonhatan
+ *
  */
 public class ApplicationLogs extends ArrayList<IApplicationLog> {
 

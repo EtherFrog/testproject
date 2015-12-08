@@ -2,11 +2,10 @@ package edu.iut.app;
 
 import java.util.ArrayList;
 
-/*
+/**
  * 
- * 
- * 
- * 
+ * @author Joe&Jonhatan
+ *
  */
 public interface IApplicationLog {
 

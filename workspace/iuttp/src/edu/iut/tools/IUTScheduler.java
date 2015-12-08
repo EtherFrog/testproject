@@ -12,7 +12,7 @@ import edu.iut.app.CommandLineParser;
 public class IUTScheduler {
 	public static void main(String[] args) {
 
-//		Locale.setDefault(Locale.ENGLISH);
+		Locale.setDefault(Locale.ENGLISH);
 //		Locale.setDefault(Locale.FRANCE);
 		
 		CommandLineParser commandLineParser = new CommandLineParser();
@@ -30,6 +30,7 @@ public class IUTScheduler {
 		commandLineParser.parse(args);
 		
 		SwingUtilities.invokeLater(new Runnable() {
+			@Override
 			public void run() {
 				JFrame mainFrame = new edu.iut.gui.frames.SchedulerFrame("IUT Scheduler");
 				mainFrame.setVisible(true);		        
